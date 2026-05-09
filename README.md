@@ -1,33 +1,39 @@
-# Credit Risk Scoring System using Machine Learning
+# 🚀 Credit Risk Scoring System
+
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Machine Learning](https://img.shields.io/badge/ML-Scikit--Learn-orange)
+![Status](https://img.shields.io/badge/Project-Completed-green)
+
+---
 
 ## 🧠 Overview
-This project is a Machine Learning system that predicts credit risk for loan applicants.
 
-It analyzes customer financial and personal data to determine:
-- Probability of default
-- Final decision: Approve or Reject
+This is an end-to-end **Machine Learning project** that predicts whether a loan applicant is high or low credit risk.
 
----
-
-## 📊 Dataset
-The project uses the German Credit Dataset:
-
-- german_credit_data.csv
-- german_credit_with_risk.csv
-
-### Features:
-- Age
-- Job
-- Credit amount
-- Duration
-- Housing
-- Saving accounts
-- Checking account
-- Purpose
+It helps financial institutions make data-driven lending decisions.
 
 ---
 
-## ⚙️ Project Structure
+## 📊 Problem Statement
+
+Given customer financial data, the model predicts:
+
+- 🔴 Risk of default (Reject)
+- 🟢 Low risk (Approve)
+
+---
+
+## ⚙️ Tech Stack
+
+- Python 🐍  
+- Pandas  
+- NumPy  
+- Scikit-learn  
+- Joblib  
+
+---
+
+## 📁 Project Structure
 
 ```
 
@@ -48,7 +54,17 @@ eda.ipynb
 src/
 train.py
 
-````
+````id="structure2"
+
+---
+
+## 🧪 How It Works
+
+1. Data preprocessing  
+2. Encoding categorical features  
+3. Feature scaling  
+4. Model training  
+5. Prediction pipeline  
 
 ---
 
@@ -62,9 +78,9 @@ python app/example.py
 
 ---
 
-## 🔮 Sample Output
+## 🔮 Sample Prediction
 
-```json
+```json id="sample2"
 {
     "probability": 0.86,
     "decision": "Reject"
@@ -73,19 +89,20 @@ python app/example.py
 
 ---
 
-## 📦 Technologies Used
+## 📊 Model Output Flow
 
-* Python
-* Pandas
-* NumPy
-* Scikit-learn
-* Joblib
+```
+Customer Data ➜ Preprocessing ➜ ML Model ➜ Probability ➜ Decision
+```
 
 ---
 
 ## 📈 Future Improvements
 
-* Deploy model using FastAPI
-* Build dashboard with Streamlit
-* Improve model using XGBoost tuning
-* Add real-time API predictions
+* 🔥 Deploy using FastAPI
+* 📊 Add Streamlit dashboard
+* ⚡ Improve accuracy with XGBoost tuning
+* 🌐 Real-time API integration
+
+---
+
